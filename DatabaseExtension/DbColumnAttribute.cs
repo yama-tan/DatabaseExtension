@@ -8,7 +8,7 @@ namespace DatabaseExtension {
             this.ColumnName = columnName;
         }
         public DbColumnAttribute(string columnName, string dateFormat) : this(columnName) {
-            this.DateFormat = DateFormat;
+            this.DateFormat = dateFormat;
         }
         public string ColumnName {
             get;
